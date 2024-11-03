@@ -1,0 +1,17 @@
+.stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.stack > * + * {
+  margin-top: var(--space, var(--s1));
+}
+
+.recursive .stack > * {
+  margin-top: var(--space, var(--s1));
+}
+
+.splitAfter > :nth-child(var(--splitAfter)) {
+  margin-bottom: auto;
+}
