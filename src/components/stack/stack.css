@@ -8,10 +8,10 @@
   margin-top: var(--space, var(--s1));
 }
 
-.recursive .stack > * {
+.recursive.stack * + * {
   margin-top: var(--space, var(--s1));
 }
 
-.splitAfter > :nth-child(var(--splitAfter)) {
+/* .splitAfter > :nth-child(var(--splitAfter)) {
   margin-bottom: auto;
-}
+} */
